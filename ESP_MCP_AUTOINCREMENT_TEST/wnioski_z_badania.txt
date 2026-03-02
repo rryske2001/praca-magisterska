@@ -1,0 +1,27 @@
+Badanie potwierdza, że układ MCP23017 domyślnie pracuje w trybie sekwencyjnym (SEQOP = 0 w rejestrze konfiguracji). 
+Każdy zapisany lub odczytany bajt powoduje sprzętową autoinkrementację wskaźnika adresu o wartość +1.
+
+
+Udowodniono, że wskaźnik adresu wewnątrz układu ma charakter zapętlony (tzw. bufor cykliczny). 
+Przekroczenie maksymalnego dostępnego adresu w pamięci rejestrów (0x15) nie powoduje błędu magistrali I2C (układ nadal wysyła sygnał ACK), 
+nie zawiesza mikrokontrolera docelowego, lecz powoduje jego natychmiastowe "zawinięcie" (rollover) do adresu początkowego (0x00).
+
+Przejście to odbywa się całkowicie płynnie w obrębie jednej ciągłej transakcji I2C, 
+co z punktu widzenia oprogramowania sterującego (Mastera) jest zjawiskiem "cichym" 
+    – program nie otrzymuje żadnego powiadomienia o tym, że wskaźnik wrócił na początek.
+
+Fakt, że układ nie zgłasza błędu, jest niezwykle niebezpieczny z inżynieryjnego punktu widzenia.
+Skutki takiego przepełnienia w realnych aplikacjach:
+Nadpisanie krytycznej konfiguracji: Jeśli programista pomyli się w długości bufora podczas aktualizacji stanów wyjściowych 
+(zapis do rejestrów OLATA/OLATB na końcu mapy pamięci), 
+nadmiarowe bajty trafią prosto do rejestrów kierunku IODIRA/IODIRB (0x00, 0x01).
+
+Katastrofalne zwarcia elektryczne: Przypadkowa zmiana konfiguracji pinu z wejścia (czytającego stan przycisku/czujnika zew.) 
+na wyjście (podające twarde napięcie lub masę) może doprowadzić do zwarcia z zewnętrznym obwodem i fizycznego spalenia układu scalonego.
+
+Ciche awarie (Silent Failures): Mikrokontroler nadrzędny (ESP32) uważa, że transakcja I2C przebiegła pomyślnie. 
+Nie zostają uruchomione żadne procedury obsługi błędów (Error Handling), a mimo to sterowane urządzenie (np. układ automatyki) 
+zaczyna zachowywać się chaotycznie, ponieważ jego rejestry polaryzacji czy przerwań zostały wypełnione losowymi danymi, 
+które miały być stanami pinów.
+
+Podać mapę rejestrów.
