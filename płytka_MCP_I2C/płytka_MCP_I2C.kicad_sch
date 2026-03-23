@@ -3435,6 +3435,12 @@
 		(uuid "0cf0875e-f5e8-4497-bb8e-2402d77a13df")
 	)
 	(junction
+		(at 157.48 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d05951e-10d9-425c-9fc9-87f4eb5f7266")
+	)
+	(junction
 		(at 236.22 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3794,6 +3800,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 48.26) (xy 181.61 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dcd41d4-09aa-4684-aa8f-fb58b360512d")
+	)
+	(wire
+		(pts
 			(xy 73.66 39.37) (xy 68.58 39.37)
 		)
 		(stroke
@@ -3881,6 +3897,16 @@
 			(type default)
 		)
 		(uuid "1b361aef-12da-4022-b9f3-e5750e6b6c9c")
+	)
+	(wire
+		(pts
+			(xy 191.77 149.86) (xy 157.48 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc0068d-3069-417a-99ad-7ba4fc55f960")
 	)
 	(wire
 		(pts
@@ -5004,6 +5030,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 48.26) (xy 181.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b6243b-f70f-4e00-899b-49618ce6cc39")
+	)
+	(wire
+		(pts
 			(xy 233.68 88.9) (xy 233.68 83.82)
 		)
 		(stroke
@@ -5624,6 +5660,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 116.84) (xy 191.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da201205-2054-4b52-b77e-afa7d7380b3a")
+	)
+	(wire
+		(pts
 			(xy 91.44 162.56) (xy 91.44 97.79)
 		)
 		(stroke
@@ -5724,6 +5770,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 116.84) (xy 191.77 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebfa2724-0877-4d5b-ab14-f6bb4f29bc97")
+	)
+	(wire
+		(pts
 			(xy 224.79 68.58) (xy 224.79 80.01)
 		)
 		(stroke
@@ -5751,6 +5807,16 @@
 			(type default)
 		)
 		(uuid "eea20a5c-ddb0-4172-a7b7-72552939cb89")
+	)
+	(wire
+		(pts
+			(xy 157.48 146.05) (xy 157.48 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcba951-7aeb-4f4b-8be0-74e8ed886752")
 	)
 	(wire
 		(pts
@@ -9044,6 +9110,72 @@
 			(project "płytka_MCP_I2C"
 				(path "/3b722ef3-3e65-45b1-8f17-63d4069d1a23"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 120.65 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa218edf-7820-4184-8cd7-f6049b1f65e5")
+		(property "Reference" "J9"
+			(at 128.016 46.736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RESET"
+			(at 118.364 46.736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 120.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 120.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d70b7ae-42e7-40d9-a132-78ac2f86786f")
+		)
+		(instances
+			(project "płytka_MCP_I2C"
+				(path "/3b722ef3-3e65-45b1-8f17-63d4069d1a23"
+					(reference "J9")
 					(unit 1)
 				)
 			)
