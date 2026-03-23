@@ -73,7 +73,8 @@ void SPI_INIT()
   DDRB |= (1 << MOSI) | (1 << SCK) | (1 << SS) | (1 << MCP_RESET); //ustawienie pinów jako wyjścia
   DDRB &= ~(1 << MISO); //ustawienie pinów jako wejścia
   PORTB |= (1 << SS) | (1 << MCP_RESET); //ustawienie SS i MCP_RESET na wysokim poziomie
-  SPCR = (1 << SPE) | (1 << MSTR) | (1 << SPR0); //włączenie SPI jako tryb master i zegar FCPU/16
+  SPCR = (1 << SPE) | (1 << MSTR); // Brak bitów SPR1 i SPR0
+  SPSR |= (1 << SPI2X); // Włączenie bitu podwójnej prędkości!
 }
 
 uint8_t SPI_Transfer(uint8_t data)

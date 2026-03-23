@@ -30,7 +30,7 @@ ESP32                    MCP23017 (I2C)
 #define I2C_MASTER_SCL_IO           22      // GPIO dla zegara SCL
 #define I2C_MASTER_SDA_IO           21      // GPIO dla danych SDA
 #define I2C_MASTER_NUM              I2C_NUM_0 // Port I2C
-#define I2C_MASTER_FREQ_HZ          100000  // Częstotliwość I2C (100 kHz - bardzo bezpieczna)
+#define I2C_MASTER_FREQ_HZ          400000  // Częstotliwość I2C (100 kHz - bardzo bezpieczna)
 #define I2C_MASTER_TIMEOUT_MS       1000
 
 #define PIN_NUM_RST  17 // Sprzętowy RESET układu MCP

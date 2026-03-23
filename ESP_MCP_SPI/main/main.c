@@ -30,7 +30,7 @@ ESP32                    MCP23S17
 #define PIN_NUM_CLK  18
 #define PIN_NUM_CS   5
 #define PIN_NUM_RST  17
-#define SPI_MASTER_FREQ_HZ 1000000
+#define SPI_MASTER_FREQ_HZ 500000
 
 // --- Definicje rejestrów MCP23S17 ---
 #define MCP_OPCODE 0x40

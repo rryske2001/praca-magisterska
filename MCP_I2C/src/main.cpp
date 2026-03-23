@@ -65,7 +65,7 @@ void timer1_init(){
 
 void I2C_Init() {
     TWSR = 0x00;
-    TWBR = 0x48;
+    TWBR = 0x2; //Prędkość transmisji
     TWCR = (1 << TWEN);
 }
 
