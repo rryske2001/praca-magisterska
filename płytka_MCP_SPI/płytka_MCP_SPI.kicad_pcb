@@ -1694,6 +1694,7 @@
 		(property "Value" "SPI"
 			(at 0 10.39 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fd16ce8e-862c-49b2-b2b7-39c486ac49d0")
 			(effects
 				(font
@@ -1894,8 +1895,8 @@
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
-			(size 1.7 1.7)
-			(drill 1)
+			(size 1.905 1.905)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 48 "Net-(J27-Pin_1)")
@@ -1903,37 +1904,40 @@
 			(pintype "passive")
 			(uuid "9c2bd3e7-9f5f-4118-bceb-006a17ceaf00")
 		)
-		(pad "2" thru_hole circle
+		(pad "2" thru_hole rect
 			(at 0 2.54 270)
-			(size 1.7 1.7)
-			(drill 1)
+			(size 1.905 1.905)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 40 "Net-(J27-Pin_2)")
 			(pinfunction "Pin_2")
 			(pintype "passive")
+			(thermal_bridge_angle 45)
 			(uuid "1b06e47c-853e-4ed7-afeb-72f1f20a7ded")
 		)
-		(pad "3" thru_hole circle
+		(pad "3" thru_hole rect
 			(at 0 5.08 270)
-			(size 1.7 1.7)
-			(drill 1)
+			(size 1.905 1.905)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 41 "Net-(J27-Pin_3)")
 			(pinfunction "Pin_3")
 			(pintype "passive")
+			(thermal_bridge_angle 45)
 			(uuid "55c2da88-32b3-4f6c-854f-8f41d5b8234c")
 		)
-		(pad "4" thru_hole circle
+		(pad "4" thru_hole rect
 			(at 0 7.62 270)
-			(size 1.7 1.7)
-			(drill 1)
+			(size 1.905 1.905)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 17 "Net-(J27-Pin_4)")
 			(pinfunction "Pin_4")
 			(pintype "passive")
+			(thermal_bridge_angle 45)
 			(uuid "00bc6310-b647-44d7-807f-f27fc3921bf7")
 		)
 		(embedded_fonts no)
@@ -8297,11 +8301,11 @@
 		)
 	)
 	(gr_line
-		(start 106.460333 80.98)
-		(end 110.020333 80.98)
+		(start 106.65 80.93)
+		(end 109.72 80.93)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.381)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "4b902779-8af4-4a5e-83f4-d6a086befd7d")
@@ -8437,8 +8441,8 @@
 		(uuid "cc4a7d6e-2a44-48a7-8993-16fd9d661c4f")
 	)
 	(gr_rect
-		(start 51.46 38.355)
-		(end 128.76 115.325)
+		(start 51.66 38.355)
+		(end 128.66 115.355)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -8799,6 +8803,82 @@
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
+		(uuid "05f1866b-ad2f-4cc1-8744-92ba5f853459")
+		(pts
+			(xy 51.66 38.355) (xy 128.66 38.355)
+		)
+		(height -7.155)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "77"
+			(at 90.16 30.05 0)
+			(layer "Dwgs.User")
+			(uuid "05f1866b-ad2f-4cc1-8744-92ba5f853459")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "0b04045e-94d6-4e93-9152-464e1f1a4112")
+		(pts
+			(xy 128.66 115.355) (xy 128.66 38.355)
+		)
+		(height 3.61)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "77"
+			(at 131.12 76.855 90)
+			(layer "Dwgs.User")
+			(uuid "0b04045e-94d6-4e93-9152-464e1f1a4112")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "44098968-d03a-43a2-aba9-9bc421c69764")
 		(pts
 			(xy 133.54544 109.89) (xy 133.54544 145.89)
@@ -8875,44 +8955,6 @@
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
-		(uuid "8115ded6-e9ee-4d0f-bfb4-c4a7132fbed2")
-		(pts
-			(xy 128.76 38.355) (xy 128.76 115.325)
-		)
-		(height 33.51)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "76,97"
-			(at 161.12 76.84 90)
-			(layer "Dwgs.User")
-			(uuid "8115ded6-e9ee-4d0f-bfb4-c4a7132fbed2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
 		(uuid "87a26083-6c08-4a89-9cff-c72e7c32d2b9")
 		(pts
 			(xy 149.54 169.89) (xy 149.54 109.89)
@@ -8940,44 +8982,6 @@
 			(at 156.7 139.89 90)
 			(layer "Dwgs.User")
 			(uuid "87a26083-6c08-4a89-9cff-c72e7c32d2b9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
-		(uuid "b8a0838c-42d3-497e-ac77-f542df08ba40")
-		(pts
-			(xy 51.46 38.355) (xy 128.76 38.355)
-		)
-		(height -11.015)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "77,3"
-			(at 90.11 26.19 0)
-			(layer "Dwgs.User")
-			(uuid "b8a0838c-42d3-497e-ac77-f542df08ba40")
 			(effects
 				(font
 					(size 1 1)
@@ -11435,16 +11439,16 @@
 		(members "4ca6884b-f16e-4cc8-a7e9-71e795635acf")
 	)
 	(group ""
+		(uuid "6ca8f8ed-fc4c-4b89-ad6e-3fd8a224ca15")
+		(members "1092fc1a-5df2-4544-83e0-d84b64546b13" "4b902779-8af4-4a5e-83f4-d6a086befd7d")
+	)
+	(group ""
 		(uuid "8757720a-ce99-4fed-8d81-ff064a0c6447")
 		(members "acd6a382-df3b-436c-a1a8-3759a3338cc9")
 	)
 	(group ""
 		(uuid "acd6a382-df3b-436c-a1a8-3759a3338cc9")
 		(members "ae3650fa-d5b3-4dfb-b49b-eb3c415f8550")
-	)
-	(group ""
-		(uuid "b33c4f4c-6112-4a1e-bdfd-24fedf39d505")
-		(members "1092fc1a-5df2-4544-83e0-d84b64546b13" "4b902779-8af4-4a5e-83f4-d6a086befd7d")
 	)
 	(group ""
 		(uuid "ce61a81b-dd8e-4427-8be7-f841ca614bfb")

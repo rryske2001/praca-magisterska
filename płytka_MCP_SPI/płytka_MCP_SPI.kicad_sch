@@ -8926,7 +8926,7 @@
 		(dnp no)
 		(uuid "fa218edf-7820-4184-8cd7-f6049b1f65e5")
 		(property "Reference" "J9"
-			(at 139.446 45.466 90)
+			(at 133.604 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)

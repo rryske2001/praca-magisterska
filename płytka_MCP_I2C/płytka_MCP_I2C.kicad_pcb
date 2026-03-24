@@ -9385,17 +9385,6 @@
 		(layer "F.SilkS")
 		(uuid "eaa68eed-d654-4de3-8b08-4462ff404bf8")
 	)
-	(gr_circle
-		(center 129.65 111.9)
-		(end 130.9 112.9)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "280487a0-1678-408d-a607-523ca35c36df")
-	)
 	(gr_rect
 		(start 51.54 109.89)
 		(end 149.54 169.89)
@@ -9408,15 +9397,16 @@
 		(uuid "2f3e32e9-60fa-4655-83be-9993a2a383ae")
 	)
 	(gr_circle
-		(center 40.15 111.55)
-		(end 40.925 112.95)
+		(center 125.64 45)
+		(end 127.240781 45)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
+		(locked yes)
 		(layer "Dwgs.User")
-		(uuid "80d5e061-9d8f-491e-9c43-90c664f456ec")
+		(uuid "7bee2008-3f5d-4d1e-ae0f-d09cd4e21222")
 	)
 	(gr_rect
 		(start 53.55544 109.89)
@@ -9430,8 +9420,32 @@
 		(uuid "98f58cc6-6913-4736-b052-c2a511e84cf6")
 	)
 	(gr_circle
-		(center 129.36 41.97)
-		(end 129.76 43.52)
+		(center 125.64 111.61)
+		(end 127.240781 111.61)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Dwgs.User")
+		(uuid "a32c1a09-c2c0-40c6-a2e1-65f2587236e4")
+	)
+	(gr_circle
+		(center 56.489805 45)
+		(end 58.09 45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Dwgs.User")
+		(uuid "cf8625cf-9641-4617-a40f-f7389bdcca7e")
+	)
+	(gr_circle
+		(center 56.489805 111.61)
+		(end 57.264805 113.01)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -9439,34 +9453,11 @@
 		(fill no)
 		(locked yes)
 		(layer "Dwgs.User")
-		(uuid "9a8b8f73-e173-4307-b7b4-a95dce6062d7")
-	)
-	(gr_circle
-		(center 56.49 111.625)
-		(end 57.265 113.025)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "ab9d0cc0-14b2-4b0e-869b-914223b8d1d5")
-	)
-	(gr_circle
-		(center 40.635 41.995195)
-		(end 41.41 43.395195)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(locked yes)
-		(layer "Dwgs.User")
-		(uuid "cc4a7d6e-2a44-48a7-8993-16fd9d661c4f")
+		(uuid "f7daf5c1-06bf-4b2b-ad98-f3397f8cade2")
 	)
 	(gr_rect
-		(start 35.6 38.355)
-		(end 133.6 115.325)
+		(start 53.51 38.355)
+		(end 133.51 115.355)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -9832,11 +9823,11 @@
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
-		(uuid "28ccd039-a13a-4f40-abf4-bd309379a703")
+		(uuid "02fbc37a-18a5-4023-9428-b4129b6e939a")
 		(pts
-			(xy 35.6 38.355) (xy 133.6 38.355)
+			(xy 53.51 38.355) (xy 133.51 38.355)
 		)
-		(height -16.985)
+		(height -4.355)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -9855,48 +9846,10 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "98"
-			(at 84.6 20.22 0)
+		(gr_text "80"
+			(at 93.51 32.85 0)
 			(layer "Dwgs.User")
-			(uuid "28ccd039-a13a-4f40-abf4-bd309379a703")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
-		(uuid "3ada0459-5b0c-42d4-96d4-c01b9309464b")
-		(pts
-			(xy 133.6 38.355) (xy 133.6 115.325)
-		)
-		(height 20.25)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "76,97"
-			(at 152.7 76.84 90)
-			(layer "Dwgs.User")
-			(uuid "3ada0459-5b0c-42d4-96d4-c01b9309464b")
+			(uuid "02fbc37a-18a5-4023-9428-b4129b6e939a")
 			(effects
 				(font
 					(size 1 1)
@@ -10011,6 +9964,44 @@
 			(at 156.7 139.89 90)
 			(layer "Dwgs.User")
 			(uuid "87a26083-6c08-4a89-9cff-c72e7c32d2b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "fece4317-8e61-4314-a801-7c8328545ab9")
+		(pts
+			(xy 133.51 115.355) (xy 133.51 38.355)
+		)
+		(height 3.59)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "77"
+			(at 135.95 76.855 90)
+			(layer "Dwgs.User")
+			(uuid "fece4317-8e61-4314-a801-7c8328545ab9")
 			(effects
 				(font
 					(size 1 1)
