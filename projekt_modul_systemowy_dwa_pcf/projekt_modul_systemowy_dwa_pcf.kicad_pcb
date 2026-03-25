@@ -401,7 +401,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "VCC")
@@ -411,7 +411,7 @@
 		(pad "2" thru_hole rect
 			(at 10.16 0)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "Net-(J1-Pin_1)")
@@ -1177,7 +1177,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "VCC")
@@ -1187,7 +1187,7 @@
 		(pad "2" thru_hole rect
 			(at 10.16 0 270)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 10 "Net-(J5-Pin_1)")
@@ -3146,7 +3146,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "VCC")
@@ -3156,7 +3156,7 @@
 		(pad "2" thru_hole rect
 			(at 10.16 0 270)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 8 "Net-(J4-Pin_1)")
@@ -4194,7 +4194,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "VCC")
@@ -4204,7 +4204,7 @@
 		(pad "2" thru_hole rect
 			(at 10.16 0 270)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 12 "Net-(J6-Pin_1)")
@@ -6469,7 +6469,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "VCC")
@@ -6479,7 +6479,7 @@
 		(pad "2" thru_hole rect
 			(at 10.16 0)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 13 "Net-(J7-Pin_1)")
@@ -8034,7 +8034,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -8044,7 +8044,7 @@
 		(pad "2" thru_hole rect
 			(at 5 0)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "VCC")
@@ -8757,7 +8757,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -8767,7 +8767,7 @@
 		(pad "2" thru_hole rect
 			(at 5 0)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "VCC")
@@ -10855,7 +10855,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3149,6063 mils"
+		(gr_text "80,0000 mm"
 			(at 81.03 148.436 0)
 			(layer "Dwgs.User")
 			(uuid "bd186d6d-ad9b-4c63-8775-3a5607655a9d")
@@ -10893,7 +10893,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3858,2677"
+		(gr_text "98"
 			(at 88 19.65 0)
 			(layer "Dwgs.User")
 			(uuid "1c6ac8a8-03df-4b57-8738-a0e94924a4aa")
@@ -10931,7 +10931,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1417,3228"
+		(gr_text "36"
 			(at 124.4 126.24 90)
 			(layer "Dwgs.User")
 			(uuid "41c038e3-ee0e-4ee3-8e3d-ea3d4ae50670")
@@ -10969,7 +10969,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3622,0472"
+		(gr_text "92"
 			(at 139.85 69.975 90)
 			(layer "Dwgs.User")
 			(uuid "8a65fd83-2455-494e-af02-edfcb6435b94")
@@ -11007,7 +11007,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2362,2047"
+		(gr_text "60"
 			(at 141.25 138.24 90)
 			(layer "Dwgs.User")
 			(uuid "c4c7f714-7db5-4440-ba6f-157c36b3d149")
@@ -11045,7 +11045,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3858,2677"
+		(gr_text "98"
 			(at 88 172.05 0)
 			(layer "Dwgs.User")
 			(uuid "f8b5e13c-a362-4f56-a6dd-60fd17c0d94b")
