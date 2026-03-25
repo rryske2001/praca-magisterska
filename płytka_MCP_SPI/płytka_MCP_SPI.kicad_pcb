@@ -2676,7 +2676,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 18 "VCC")
@@ -2686,7 +2686,7 @@
 		(pad "2" thru_hole rect
 			(at 10.16 0 270)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 43 "Net-(J7-Pin_1)")
@@ -3154,7 +3154,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 16 "GND")
@@ -3164,7 +3164,7 @@
 		(pad "2" thru_hole rect
 			(at 5 0 90)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 18 "VCC")
@@ -4314,7 +4314,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 18 "VCC")
@@ -4324,7 +4324,7 @@
 		(pad "2" thru_hole rect
 			(at 10.16 0 270)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 39 "Net-(J1-Pin_1)")
@@ -5800,7 +5800,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 18 "VCC")
@@ -5810,7 +5810,7 @@
 		(pad "2" thru_hole rect
 			(at 10.16 0 270)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 42 "Net-(J6-Pin_1)")
@@ -8506,7 +8506,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 22 "Net-(J9-Pin_1)")
@@ -8516,7 +8516,7 @@
 		(pad "2" thru_hole rect
 			(at 10.16 0 90)
 			(size 1.905 1.905)
-			(drill 0.508)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 18 "VCC")
