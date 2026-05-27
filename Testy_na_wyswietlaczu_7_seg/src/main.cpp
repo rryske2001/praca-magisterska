@@ -38,7 +38,7 @@ Zmiana: Gdy delay się skończy i pętla while obróci się jeszcze raz, program
 #define MCP_OLATA  0x14
 #define MCP_OLATB  0x15
 
-#define MCP_OPCODE 0x40 // A0,A1,A2 = GND
+#define MCP_OPCODE 0x40 //A0,A1,A2 = GND
 
 #define BTN1 PD0
 #define BTN2 PD1
@@ -54,19 +54,19 @@ volatile uint8_t test_mode = 0;
 
 // --- Inicjalizacja Przycisków na Przerwaniach (PCINT) ---
 void buttons_init() {
-    // 1. Ustawienie pinów jako wejścia
+    //Ustawienie pinów jako wejścia
     DDRD &= ~((1<<BTN1) | (1<<BTN2) | (1<<BTN3) | (1<<BTN4) | (1<<BTNSEL));
     
-    // 2. Włączenie Pull-Up (Wymagane, nawet przy debouncingu sprzętowym, chyba że jest zewnętrzny rezystor)
+    //Włączenie Pull-Up (Wymagane, nawet przy debouncingu sprzętowym, chyba że jest zewnętrzny rezystor)
     PORTD |= (1<<BTN1) | (1<<BTN2) | (1<<BTN3) | (1<<BTN4) | (1<<BTNSEL);
 
-    // 3. Włączenie przerwań PCINT dla grupy PCINT2 (Port D)
+    //Włączenie przerwań PCINT dla grupy PCINT2 (Port D)
     PCICR |= (1 << PCIE2);
 
-    // 4. Wybór konkretnych pinów, które mają wywołać przerwanie
+    //Wybór konkretnych pinów, które mają wywołać przerwanie
     PCMSK2 |= (1 << PCINT16) | (1 << PCINT17) | (1 << PCINT18) | (1 << PCINT19);
     
-    // Globalne przerwania włączamy w main przez sei()
+    //Globalne przerwania włączamy w main przez sei()
 }
 
 void SPI_INIT()
@@ -86,25 +86,25 @@ uint8_t SPI_Transfer(uint8_t data)
 
 // --- Obsługa MCP23S17 ---
 void MCP_Write(uint8_t reg, uint8_t data) {
-    PORTB &= ~(1 << SS); // CS Low (Start)
+    PORTB &= ~(1 << SS); //CS Low (Start)
     _delay_ms(1);
     SPI_Transfer(MCP_OPCODE);
     SPI_Transfer(reg);
     SPI_Transfer(data);
     _delay_ms(1);
-    PORTB |= (1 << SS);  // CS High (Stop)
+    PORTB |= (1 << SS);  //CS High (Stop)
 }
 
 void MCP_Init(void) {
-    // 1. Ustawienie IODIRA i IODIRB na 0x00 (Wszystkie piny jako WYJŚCIA)
-    // Dzięki trybowi sekwencyjnemu (domyślnemu), można wysłać to jednym ciągiem!
+    //Ustawienie IODIRA i IODIRB na 0x00 (Wszystkie piny jako WYJŚCIA)
+    //Dzięki trybowi sekwencyjnemu (domyślnemu), można wysłać to jednym ciągiem!
     
-    PORTB &= ~(1 << SS); // CS Low
+    PORTB &= ~(1 << SS); //CS Low
     SPI_Transfer(MCP_OPCODE);
-    SPI_Transfer(MCP_IODIRA); // Startujemy od adresu 0x00
-    SPI_Transfer(0x00);       // Wpis do IODIRA (0x00) -> wskaźnik sam skoczy na 0x01
-    SPI_Transfer(0x00);       // Wpis do IODIRB (0x01)
-    PORTB |= (1 << SS);  // CS High
+    SPI_Transfer(MCP_IODIRA); //Start od adresu 0x00
+    SPI_Transfer(0x00);       //Wpis do IODIRA (0x00) -> wskaźnik sam skoczy na 0x01
+    SPI_Transfer(0x00);       //Wpis do IODIRB (0x01)
+    PORTB |= (1 << SS);  //CS High
     _delay_ms(10);
     MCP_Write(MCP_GPIOB, 0x00);
     MCP_Write(MCP_GPIOA, 0x00);
@@ -115,7 +115,7 @@ void MCP_SoftReset() {
      _delay_ms(10);
      PORTB |= (1 << MCP_RESET);
      _delay_ms(10);
-     MCP_Init(); // Konieczna re-inicjalizacja po resecie!
+     MCP_Init(); //Konieczna re-inicjalizacja po resecie!
 }
 
 int main(void)
@@ -132,7 +132,7 @@ int main(void)
       MCP_Write(MCP_GPIOA, portB_shadow);
       MCP_Write(MCP_GPIOB, portB_shadow);
       _delay_ms(3000);
-      if( /*!(PIND & (1 << BTNSEL))*/ 1) //jezeli przycisk zwarty do GND
+      if( !(PIND & (1 << BTNSEL)) ) //jezeli przycisk zwarty do GND
       {
         portB_shadow = 0b00000010;
         MCP_Write(MCP_GPIOA, portB_shadow);
