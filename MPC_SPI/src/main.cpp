@@ -70,9 +70,11 @@ void timer1_init(){
 
 void SPI_INIT()
 {
-  DDRB |= (1 << MOSI) | (1 << SCK) | (1 << SS) | (1 << MCP_RESET); //ustawienie pinów jako wyjścia
-  DDRB &= ~(1 << MISO); //ustawienie pinów jako wejścia
-  PORTB |= (1 << SS) | (1 << MCP_RESET); //ustawienie SS i MCP_RESET na wysokim poziomie
+  DDRB |= (1 << MOSI) | (1 << SCK) | (1 << SS) | (1 << MCP_RESET);
+  DDRB &= ~(1 << MISO);
+  PORTB |= (1 << SS) | (1 << MCP_RESET);
+
+  // F_CPU / 2 = 8 MHz 
   SPCR = (1 << SPE) | (1 << MSTR); // Brak bitów SPR1 i SPR0
   SPSR |= (1 << SPI2X); // Włączenie bitu podwójnej prędkości!
 }
