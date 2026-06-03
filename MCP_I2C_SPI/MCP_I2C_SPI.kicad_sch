@@ -6198,7 +6198,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 92.71) (xy 269.24 92.71)
+			(xy 265.43 92.71) (xy 267.97 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7498,7 +7498,7 @@
 	)
 	(global_label "INTBS"
 		(shape bidirectional)
-		(at 269.24 92.71 0)
+		(at 267.97 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7508,7 +7508,7 @@
 		)
 		(uuid "d697c4b0-4a6c-459b-8b93-26d677f7d6b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.7189 92.71 0)
+			(at 277.4489 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
