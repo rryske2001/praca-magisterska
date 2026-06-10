@@ -2104,7 +2104,7 @@
 			)
 		)
 		(property "Value" "INTB"
-			(at 0.8981 8.331 0)
+			(at 0.9781 8.561 0)
 			(layer "F.SilkS")
 			(uuid "8c0b14ea-60fc-47e1-9361-eac9815f1475")
 			(effects
@@ -7165,7 +7165,7 @@
 			)
 		)
 		(property "Value" "INTA"
-			(at -0.8544 8.301 0)
+			(at -0.7744 8.531 0)
 			(layer "F.SilkS")
 			(uuid "cd2518ec-fbef-4f0c-a987-aa2714bf7be6")
 			(effects
@@ -12918,8 +12918,8 @@
 		)
 	)
 	(gr_line
-		(start 169.49375 39.68)
-		(end 174.82625 39.68)
+		(start 169.57375 39.91)
+		(end 174.90625 39.91)
 		(stroke
 			(width 0.381)
 			(type solid)
@@ -12938,8 +12938,8 @@
 		(uuid "12149c2c-0b13-48aa-90a4-f2469edd56a6")
 	)
 	(gr_line
-		(start 175.76 39.66)
-		(end 181.0925 39.66)
+		(start 175.84 39.89)
+		(end 181.1725 39.89)
 		(stroke
 			(width 0.381)
 			(type solid)
