@@ -1,5 +1,12 @@
 {
-    "idf.currentSetup": "C:\\Users\\Rafal\\esp\\v5.5.1\\esp-idf",
-    "idf.flashType": "UART",
-    "idf.portWin": "COM3"
+  "idf.currentSetup": "C:\\Users\\Rafal\\esp\\v5.1.6\\esp-idf",
+  "idf.flashType": "UART",
+  "idf.portWin": "COM3",
+  "idf.customExtraVars": {},
+  "clangd.path": "C:\\Users\\Rafal\\.espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=c:\\Users\\Rafal\\Desktop\\studia II st\\praca magisterska\\ESP_MCP_I2C\\build"
+  ]
 }
