@@ -687,7 +687,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "MCP_I2C_SPI.step",
       "svg": "",
       "vrml": ""
     },

@@ -369,7 +369,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 7 "Net-(J1-Pin_1)")
@@ -380,7 +380,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "Net-(J1-Pin_2)")
@@ -391,7 +391,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 4 "Net-(J1-Pin_3)")
@@ -402,7 +402,7 @@
 		(pad "4" thru_hole rect
 			(at 0 7.62 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 9 "Net-(J1-Pin_4)")
@@ -413,7 +413,7 @@
 		(pad "5" thru_hole rect
 			(at 0 10.16 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 8 "Net-(J1-Pin_5)")
@@ -424,7 +424,7 @@
 		(pad "6" thru_hole rect
 			(at 0 12.7 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 10 "Net-(J1-Pin_6)")
@@ -435,7 +435,7 @@
 		(pad "7" thru_hole rect
 			(at 0 15.24 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 5 "Net-(J1-Pin_7)")
@@ -446,7 +446,7 @@
 		(pad "8" thru_hole rect
 			(at 0 17.78 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 6 "Net-(J1-Pin_8)")
@@ -1025,7 +1025,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 50 "INTA0")
@@ -1036,7 +1036,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 49 "INTB0")
@@ -1047,7 +1047,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 51 "RESET0")
@@ -1279,7 +1279,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 37 "Net-(J14-Pin_1)")
@@ -1291,7 +1291,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 39 "Net-(J15-Pin_2)")
@@ -1303,7 +1303,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -1536,7 +1536,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 80 "Net-(J33-Pin_1)")
@@ -1548,7 +1548,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 56 "INTBS")
@@ -1560,7 +1560,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 56 "INTBS")
@@ -1880,7 +1880,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 57 "INTAS")
@@ -1892,7 +1892,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 56 "INTBS")
@@ -1904,7 +1904,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 58 "RESETS")
@@ -2351,7 +2351,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 45 "Net-(J21-Pin_1)")
@@ -2362,7 +2362,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 31 "Net-(J21-Pin_2)")
@@ -2373,7 +2373,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 46 "Net-(J21-Pin_3)")
@@ -2606,7 +2606,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 37 "Net-(J14-Pin_1)")
@@ -2618,7 +2618,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 38 "Net-(J14-Pin_2)")
@@ -2630,7 +2630,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -2863,7 +2863,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 44 "Net-(J20-Pin_1)")
@@ -2875,7 +2875,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 49 "INTB0")
@@ -2887,7 +2887,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 49 "INTB0")
@@ -3109,7 +3109,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 34 "Net-(J5-Pin_16)")
@@ -3427,7 +3427,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 60 "Net-(J25-Pin_1)")
@@ -3439,7 +3439,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 77 "Net-(J29-Pin_2)")
@@ -3451,7 +3451,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -3979,7 +3979,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 37 "Net-(J14-Pin_1)")
@@ -3991,7 +3991,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 40 "Net-(J16-Pin_2)")
@@ -4003,7 +4003,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -4779,7 +4779,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 46 "Net-(J21-Pin_3)")
@@ -5011,7 +5011,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 43 "Net-(J19-Pin_1)")
@@ -5023,7 +5023,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 50 "INTA0")
@@ -5035,7 +5035,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 50 "INTA0")
@@ -5268,7 +5268,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 60 "Net-(J25-Pin_1)")
@@ -5280,7 +5280,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 78 "Net-(J31-Pin_2)")
@@ -5292,7 +5292,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -5525,7 +5525,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 60 "Net-(J25-Pin_1)")
@@ -5537,7 +5537,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 59 "Net-(J25-Pin_2)")
@@ -5549,7 +5549,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 270)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -5782,7 +5782,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 42 "Net-(J18-Pin_1)")
@@ -5794,7 +5794,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 35 "SCL")
@@ -5806,7 +5806,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 35 "SCL")
@@ -6039,7 +6039,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 79 "Net-(J32-Pin_1)")
@@ -6051,7 +6051,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 57 "INTAS")
@@ -6063,7 +6063,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 57 "INTAS")
@@ -6394,7 +6394,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -6405,7 +6405,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -6416,7 +6416,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -6870,7 +6870,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 36 "SDA")
@@ -6881,7 +6881,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 35 "SCL")
@@ -6919,7 +6919,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP23017_SP"
+		(property "Value" "MCP23S17_SP"
 			(at 3.81 35.35 0)
 			(layer "F.SilkS")
 			(uuid "91dc94fc-8a86-4afc-8333-6775a283fac7")
@@ -7679,7 +7679,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "+5V")
@@ -7690,7 +7690,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "+5V")
@@ -7701,7 +7701,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "+5V")
@@ -7934,7 +7934,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask" "B.SilkS")
 			(remove_unused_layers no)
 			(net 33 "Net-(J5-Pin_1)")
@@ -7945,7 +7945,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 32 "Net-(J5-Pin_2)")
@@ -7956,7 +7956,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 31 "Net-(J21-Pin_2)")
@@ -7967,7 +7967,7 @@
 		(pad "4" thru_hole rect
 			(at 0 7.62 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 28 "Net-(J4-Pin_1)")
@@ -7978,7 +7978,7 @@
 		(pad "5" thru_hole rect
 			(at 0 10.16 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 27 "Net-(J4-Pin_2)")
@@ -7989,7 +7989,7 @@
 		(pad "6" thru_hole rect
 			(at 0 12.7 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 29 "Net-(J4-Pin_3)")
@@ -8001,7 +8001,7 @@
 		(pad "7" thru_hole rect
 			(at 0 15.24 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 20 "Net-(J3-Pin_1)")
@@ -8012,7 +8012,7 @@
 		(pad "8" thru_hole rect
 			(at 0 17.78 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 23 "Net-(J3-Pin_2)")
@@ -8023,7 +8023,7 @@
 		(pad "9" thru_hole rect
 			(at 0 20.32 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 19 "Net-(J3-Pin_3)")
@@ -8034,7 +8034,7 @@
 		(pad "10" thru_hole rect
 			(at 0 22.86 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 25 "Net-(J3-Pin_4)")
@@ -8045,7 +8045,7 @@
 		(pad "11" thru_hole rect
 			(at 0 25.4 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 22 "Net-(J3-Pin_5)")
@@ -8056,7 +8056,7 @@
 		(pad "12" thru_hole rect
 			(at 0 27.94 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 26 "Net-(J3-Pin_6)")
@@ -8067,7 +8067,7 @@
 		(pad "13" thru_hole rect
 			(at 0 30.48 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 24 "Net-(J3-Pin_7)")
@@ -8078,7 +8078,7 @@
 		(pad "14" thru_hole rect
 			(at 0 33.02 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 21 "Net-(J3-Pin_8)")
@@ -8089,7 +8089,7 @@
 		(pad "15" thru_hole rect
 			(at 0 35.56 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 30 "Net-(J5-Pin_15)")
@@ -8100,7 +8100,7 @@
 		(pad "16" thru_hole rect
 			(at 0 38.1 90)
 			(size 2.54 1.524)
-			(drill 1)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 34 "Net-(J5-Pin_16)")
@@ -8330,7 +8330,7 @@
 		(pad "1" thru_hole oval
 			(at 0 0 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 71 "Net-(J28-Pin_1)")
@@ -8342,7 +8342,7 @@
 		(pad "2" thru_hole oval
 			(at 0 2.54 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 69 "Net-(J28-Pin_2)")
@@ -8354,7 +8354,7 @@
 		(pad "3" thru_hole oval
 			(at 0 5.08 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 72 "Net-(J28-Pin_3)")
@@ -8366,7 +8366,7 @@
 		(pad "4" thru_hole oval
 			(at 0 7.62 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 73 "Net-(J28-Pin_4)")
@@ -8378,7 +8378,7 @@
 		(pad "5" thru_hole oval
 			(at 0 10.16 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 74 "Net-(J28-Pin_5)")
@@ -8390,7 +8390,7 @@
 		(pad "6" thru_hole oval
 			(at 0 12.7 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 76 "Net-(J28-Pin_6)")
@@ -8402,7 +8402,7 @@
 		(pad "7" thru_hole oval
 			(at 0 15.24 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 70 "Net-(J28-Pin_7)")
@@ -8414,7 +8414,7 @@
 		(pad "8" thru_hole oval
 			(at 0 17.78 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 75 "Net-(J28-Pin_8)")
@@ -8646,7 +8646,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 20 "Net-(J3-Pin_1)")
@@ -8657,7 +8657,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 23 "Net-(J3-Pin_2)")
@@ -8668,7 +8668,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 19 "Net-(J3-Pin_3)")
@@ -8679,7 +8679,7 @@
 		(pad "4" thru_hole rect
 			(at 0 7.62 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 25 "Net-(J3-Pin_4)")
@@ -8690,7 +8690,7 @@
 		(pad "5" thru_hole rect
 			(at 0 10.16 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 22 "Net-(J3-Pin_5)")
@@ -8701,7 +8701,7 @@
 		(pad "6" thru_hole rect
 			(at 0 12.7 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 26 "Net-(J3-Pin_6)")
@@ -8712,7 +8712,7 @@
 		(pad "7" thru_hole rect
 			(at 0 15.24 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 24 "Net-(J3-Pin_7)")
@@ -8723,7 +8723,7 @@
 		(pad "8" thru_hole rect
 			(at 0 17.78 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 21 "Net-(J3-Pin_8)")
@@ -8954,7 +8954,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 52 "CS")
@@ -8966,7 +8966,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 55 "SCK")
@@ -8979,7 +8979,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 53 "SI")
@@ -8992,7 +8992,7 @@
 		(pad "4" thru_hole rect
 			(at 0 7.62 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 54 "SO")
@@ -9224,7 +9224,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 67 "Net-(J27-Pin_1)")
@@ -9235,7 +9235,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 68 "Net-(J27-Pin_2)")
@@ -9246,7 +9246,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 66 "Net-(J27-Pin_3)")
@@ -9257,7 +9257,7 @@
 		(pad "4" thru_hole rect
 			(at 0 7.62 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 64 "Net-(J27-Pin_4)")
@@ -9268,7 +9268,7 @@
 		(pad "5" thru_hole rect
 			(at 0 10.16 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 62 "Net-(J27-Pin_5)")
@@ -9279,7 +9279,7 @@
 		(pad "6" thru_hole rect
 			(at 0 12.7 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 61 "Net-(J27-Pin_6)")
@@ -9290,7 +9290,7 @@
 		(pad "7" thru_hole rect
 			(at 0 15.24 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 63 "Net-(J27-Pin_7)")
@@ -9301,7 +9301,7 @@
 		(pad "8" thru_hole rect
 			(at 0 17.78 180)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 65 "Net-(J27-Pin_8)")
@@ -9881,7 +9881,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 28 "Net-(J4-Pin_1)")
@@ -9892,7 +9892,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 27 "Net-(J4-Pin_2)")
@@ -9903,7 +9903,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 29 "Net-(J4-Pin_3)")
@@ -10135,7 +10135,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 41 "Net-(J17-Pin_1)")
@@ -10147,7 +10147,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 36 "SDA")
@@ -10159,7 +10159,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 270)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 36 "SDA")
@@ -10381,7 +10381,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 30 "Net-(J5-Pin_15)")
@@ -10614,7 +10614,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 32 "Net-(J5-Pin_2)")
@@ -10625,7 +10625,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 32 "Net-(J5-Pin_2)")
@@ -10636,7 +10636,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 32 "Net-(J5-Pin_2)")
@@ -10866,7 +10866,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 13 "Net-(J2-Pin_1)")
@@ -10878,7 +10878,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 12 "Net-(J2-Pin_2)")
@@ -10890,7 +10890,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 18 "Net-(J2-Pin_3)")
@@ -10902,7 +10902,7 @@
 		(pad "4" thru_hole rect
 			(at 0 7.62 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 11 "Net-(J2-Pin_4)")
@@ -10914,7 +10914,7 @@
 		(pad "5" thru_hole rect
 			(at 0 10.16 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 16 "Net-(J2-Pin_5)")
@@ -10926,7 +10926,7 @@
 		(pad "6" thru_hole rect
 			(at 0 12.7 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 14 "Net-(J2-Pin_6)")
@@ -10938,7 +10938,7 @@
 		(pad "7" thru_hole rect
 			(at 0 15.24 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 17 "Net-(J2-Pin_7)")
@@ -10950,7 +10950,7 @@
 		(pad "8" thru_hole rect
 			(at 0 17.78 180)
 			(size 2.54 1.143)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 15 "Net-(J2-Pin_8)")
@@ -11184,7 +11184,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 33 "Net-(J5-Pin_1)")
@@ -11195,7 +11195,7 @@
 		(pad "2" thru_hole rect
 			(at 0 2.54)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 33 "Net-(J5-Pin_1)")
@@ -11206,7 +11206,7 @@
 		(pad "3" thru_hole rect
 			(at 0 5.08)
 			(size 1.905 1.905)
-			(drill 0.9)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 33 "Net-(J5-Pin_1)")
@@ -12173,68 +12173,12 @@
 		)
 	)
 	(segment
-		(start 147.825 107.975)
+		(start 144.3 110.4)
 		(end 144.3 107.975)
 		(width 1.016)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "06391a84-917b-4b37-8f11-f295dd1174fa")
-	)
-	(segment
-		(start 132.1128 98.8822)
-		(end 130.5306 97.3)
-		(width 1.016)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "3824f834-f172-46bd-9062-d42d7d535960")
-	)
-	(segment
-		(start 148 107.8)
-		(end 148 102.1)
-		(width 1.016)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "49520ef5-4631-4a0f-b7b9-4bde0471d3c4")
-	)
-	(segment
-		(start 139.1 115.6)
-		(end 144.3 110.4)
-		(width 1.016)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "51577696-13eb-4ee3-9814-ee7d000c096f")
-	)
-	(segment
-		(start 132.2 98.8822)
-		(end 132.1128 98.8822)
-		(width 1.016)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "709cb8fe-4665-45a1-a28d-3728cb4a4aa8")
-	)
-	(segment
-		(start 130.5306 86.8788)
-		(end 130.5306 97.3)
-		(width 1.016)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "78a91a8f-29c1-4b81-856e-07d55814777b")
-	)
-	(segment
-		(start 148 107.8)
-		(end 147.825 107.975)
-		(width 1.016)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "8e5798a8-79a8-4ddc-9ef5-13af3b84e897")
-	)
-	(segment
-		(start 108.596478 115.6)
-		(end 139.1 115.6)
-		(width 1.016)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "93c5ccad-b1c1-4917-92f6-dfb6fb50adea")
+		(uuid "0eb7c008-5f95-4f0c-9c2f-e816b5263cf4")
 	)
 	(segment
 		(start 88.9289 86.385)
@@ -12242,39 +12186,87 @@
 		(width 1.016)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "c4bb7552-73c8-477a-b676-833035072f5c")
+		(uuid "22e7d160-bd56-4d10-8326-27a12d35be53")
 	)
 	(segment
 		(start 88.9289 95.932422)
-		(end 108.596478 115.6)
+		(end 109.896478 116.9)
 		(width 1.016)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "d5fc03f8-3d59-497d-b7a7-09eede48a86b")
+		(uuid "2ecdfe99-3646-417b-bbbf-a3f27021bb45")
 	)
 	(segment
 		(start 144.7822 98.8822)
+		(end 132.1128 98.8822)
+		(width 1.016)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "31ffd7fb-447b-4b3a-bb28-87ac5e6400ad")
+	)
+	(segment
+		(start 132.1128 98.8822)
+		(end 130.5306 97.3)
+		(width 1.016)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "560eaf61-d5f5-4b13-a2cf-2e2e209c0a68")
+	)
+	(segment
+		(start 147.825 107.975)
+		(end 148 107.8)
+		(width 1.016)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "65f26b27-e787-4492-9b6e-e951ba4e7e02")
+	)
+	(segment
+		(start 130.5306 97.3)
+		(end 130.5306 86.8788)
+		(width 1.016)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "6dfe3ce7-9e65-4b42-a428-f308c049f3b8")
+	)
+	(segment
+		(start 109.896478 116.9)
+		(end 137.8 116.9)
+		(width 1.016)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "91c55859-89d3-4c5c-a9aa-182689f3741c")
+	)
+	(segment
+		(start 148 107.8)
 		(end 148 102.1)
 		(width 1.016)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "e26809da-b142-44de-bb03-3fe30a207015")
+		(uuid "9b43f1c1-c69a-4bc8-a7cf-009f71edf3b3")
 	)
 	(segment
-		(start 144.3 110.4)
-		(end 144.3 107.975)
+		(start 137.8 116.9)
+		(end 144.3 110.4)
 		(width 1.016)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "efa7082c-af7d-4fe8-a8ee-91e257378607")
+		(uuid "bfe4a56e-2f09-4380-9587-8b8a7af704f9")
 	)
 	(segment
-		(start 132.2 98.8822)
+		(start 144.3 107.975)
+		(end 147.825 107.975)
+		(width 1.016)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "c10c1988-4f54-425a-aa79-4aa2ab240563")
+	)
+	(segment
+		(start 148 102.1)
 		(end 144.7822 98.8822)
 		(width 1.016)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "fe4f71ff-2bfd-479f-b9ad-f51cf002d3f3")
+		(uuid "d061ed56-8269-4918-a5e0-ed5aee28ca87")
 	)
 	(segment
 		(start 100.45465 58.508172)
@@ -12621,14 +12613,6 @@
 		(uuid "fe51386e-0340-45a6-b499-9c99caad429e")
 	)
 	(segment
-		(start 141 110.3)
-		(end 141.8 109.5)
-		(width 1.016)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "0ec00664-13a7-4c9a-89b6-9a93a1d8616d")
-	)
-	(segment
 		(start 112.1 25.66)
 		(end 112.1 25)
 		(width 1.016)
@@ -12661,14 +12645,6 @@
 		(uuid "20a60df4-719c-448b-9ab9-6135b27bfce5")
 	)
 	(segment
-		(start 112.1 51)
-		(end 110.3 52.8)
-		(width 1.016)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "22dd15f3-7515-45a3-8357-83800f92d3e0")
-	)
-	(segment
 		(start 88.5 26.1)
 		(end 88.5 42.1981)
 		(width 1.016)
@@ -12677,12 +12653,12 @@
 		(uuid "22eca4cb-e11c-4b43-9393-7b64e0415177")
 	)
 	(segment
-		(start 141 110.347)
-		(end 141 110.3)
+		(start 110.3 57.7)
+		(end 111.3 58.7)
 		(width 1.016)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "271a833e-8a28-4702-9e61-5e3aaa1f1190")
+		(uuid "2d25ce9f-2c1b-4c57-83de-b042ffaefa17")
 	)
 	(segment
 		(start 128.71 24.57)
@@ -12693,28 +12669,12 @@
 		(uuid "3046046d-baba-4139-ac0f-566132be6949")
 	)
 	(segment
-		(start 110.3 57.7)
-		(end 111.3 58.7)
+		(start 141 110.3)
+		(end 141.8 109.5)
 		(width 1.016)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "32f126b6-eb26-4ca9-b02b-a210c99417de")
-	)
-	(segment
-		(start 143.025 103.975)
-		(end 144.3 103.975)
-		(width 1.016)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "330f8031-0bdb-4621-b37f-3db5ca052fea")
-	)
-	(segment
-		(start 110.3 52.8)
-		(end 110.3 57.7)
-		(width 1.016)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "33c8e306-154d-4a7d-ba7b-808a497d2fef")
+		(uuid "36f7ccbc-2751-402f-98e0-618d1bedcfaf")
 	)
 	(segment
 		(start 88.5 80.9561)
@@ -12765,6 +12725,22 @@
 		(uuid "77d8b5c5-1515-4aa9-afe6-75e7ca66601a")
 	)
 	(segment
+		(start 141.8 109.5)
+		(end 141.8 105.2)
+		(width 1.016)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "783128ff-b517-4014-b62c-31466f50b7d3")
+	)
+	(segment
+		(start 116 114.6)
+		(end 136.747 114.6)
+		(width 1.016)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "836418c8-4e9b-4a19-82f9-ff264f5d0e18")
+	)
+	(segment
 		(start 128.79 24.55)
 		(end 128.751 24.511)
 		(width 1.016)
@@ -12797,6 +12773,14 @@
 		(uuid "8a7e75a2-47c4-4be1-84ad-3ca94ebc96ae")
 	)
 	(segment
+		(start 111.3 58.7)
+		(end 111.3 109.9)
+		(width 1.016)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "8aa022d8-34b3-417b-95e1-9e74667cfb77")
+	)
+	(segment
 		(start 80.65 23.25)
 		(end 74.0664 29.8336)
 		(width 1.016)
@@ -12813,6 +12797,14 @@
 		(uuid "8e1b31ea-331f-4613-b3ac-45f420ea4469")
 	)
 	(segment
+		(start 112.1 51)
+		(end 110.3 52.8)
+		(width 1.016)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "912fe846-ae30-4735-8747-ef8c51819128")
+	)
+	(segment
 		(start 128.3375 56.048508)
 		(end 128.3375 61.8149)
 		(width 1.016)
@@ -12821,12 +12813,12 @@
 		(uuid "92ad910b-6715-415b-a46d-6466996bd1b3")
 	)
 	(segment
-		(start 111.3 105.6)
-		(end 118.9 113.2)
+		(start 141 110.347)
+		(end 141 110.3)
 		(width 1.016)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "9f3c5eba-d619-4a94-8841-275f4a2d4cfe")
+		(uuid "9e1ffa62-fdf8-4215-8b41-c4b898d42bac")
 	)
 	(segment
 		(start 127.39 23.25)
@@ -12845,12 +12837,20 @@
 		(uuid "aa425d7b-1bf9-4cca-b97d-92cbd5dd962f")
 	)
 	(segment
-		(start 118.9 113.2)
-		(end 138.147 113.2)
+		(start 111.3 109.9)
+		(end 116 114.6)
 		(width 1.016)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "b6ae8e91-608a-4fee-8e5b-497fd7071edf")
+		(uuid "b1e4254c-0cad-4d55-b6e9-1dbccaf10858")
+	)
+	(segment
+		(start 136.747 114.6)
+		(end 141 110.347)
+		(width 1.016)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "b8766a1c-4afc-424f-86e6-e402d20ba195")
 	)
 	(segment
 		(start 88.5 26.1)
@@ -12861,14 +12861,6 @@
 		(uuid "bc01ca50-5f31-485b-a0f9-3d8f3ce95fd7")
 	)
 	(segment
-		(start 111.3 58.7)
-		(end 111.3 105.6)
-		(width 1.016)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "bd1f31a6-4461-4762-9db9-c9d22b15c528")
-	)
-	(segment
 		(start 88.5 23.6)
 		(end 88.15 23.25)
 		(width 1.016)
@@ -12877,12 +12869,12 @@
 		(uuid "bd8a2774-722d-473d-b559-d3937162df98")
 	)
 	(segment
-		(start 141.8 105.2)
-		(end 143.025 103.975)
+		(start 143.025 103.975)
+		(end 144.3 103.975)
 		(width 1.016)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "c0721c65-43a0-404f-887d-be6b15d0663f")
+		(uuid "cb87caa7-ee3f-4512-b18e-dd475714d719")
 	)
 	(segment
 		(start 119.380245 51)
@@ -12891,6 +12883,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "cda087df-9c52-420b-9b06-26b04944dd5e")
+	)
+	(segment
+		(start 110.3 52.8)
+		(end 110.3 57.7)
+		(width 1.016)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "d17495c6-ff25-4fc2-91b6-3f65748f22e8")
 	)
 	(segment
 		(start 130.5306 81.8788)
@@ -12925,6 +12925,14 @@
 		(uuid "e6a1bb78-1ab2-4ab3-ac0f-baaf2a16196e")
 	)
 	(segment
+		(start 141.8 105.2)
+		(end 143.025 103.975)
+		(width 1.016)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "e9f400b6-6dd2-4908-bd91-0bf691d618fd")
+	)
+	(segment
 		(start 74.0664 29.8336)
 		(end 74.0664 31.115)
 		(width 1.016)
@@ -12933,28 +12941,12 @@
 		(uuid "ea125adf-ca5c-4835-9d41-aee1d48789d2")
 	)
 	(segment
-		(start 138.147 113.2)
-		(end 141 110.347)
-		(width 1.016)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "ef6a128e-8548-458c-9d11-8c81e262cdad")
-	)
-	(segment
 		(start 121.291745 52.9115)
 		(end 119.380245 51)
 		(width 1.016)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "f116c5e9-da07-48ff-b46e-d4655d847de8")
-	)
-	(segment
-		(start 141.8 109.5)
-		(end 141.8 105.2)
-		(width 1.016)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "f82badf0-58a9-49da-bba4-a3831a0472b9")
 	)
 	(segment
 		(start 130.81 81.5994)
@@ -20903,12 +20895,6 @@
 		(layer "B.Cu")
 		(net 80)
 		(uuid "f21745de-42d6-49af-be52-cfedb1fd3ffc")
-	)
-	(group ""
-		(uuid "e343e57c-a1de-4124-acd0-f7daef0a486b")
-		(members "25f1c4e9-9d69-43ad-975b-22aab1b09580" "9bf37d39-e0ed-4c7f-be9c-09a48de94255"
-			"ece6e2c4-c4ce-4efa-8b98-246e76e60616"
-		)
 	)
 	(group ""
 		(uuid "3eecdc6a-9e0d-4fbb-8502-7cc122d7dd88")
