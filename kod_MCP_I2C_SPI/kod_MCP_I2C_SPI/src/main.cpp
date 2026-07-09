@@ -32,12 +32,12 @@
 #define MCP0_OPCODE 0x40 // A0,A1,A2 = GND
 #define MCPS_OPCODE 0x40 // A0,A1,A2 = GND
 
-//Piny sterujące na PORCIE B (MCP23017)
-#define LCD_RS_BIT (1 << 0)
-#define LCD_E_BIT  (1 << 1)
+//Piny sterujące na PORCIE A (MCP23017)
+#define LCD_RS_BIT (1 << 2)
+#define LCD_E_BIT  (1 << 0)
 #define LCD_BL_BIT (1 << 3)
 
-uint8_t portB_shadow = 0;//zmienna globalna dla stanu portu B układu MCP 
+uint8_t portA_shadow = 0;//zmienna globalna dla stanu portu A układu MCP 
 
 volatile uint16_t seconds = 0;
 
@@ -149,29 +149,29 @@ void MCPS_Init(void) {
 void LCD_ENABLE()
 {
     // E High
-    portB_shadow |= LCD_E_BIT;
-    MCP0_Write(MCP0_GPIOB, portB_shadow);
-    MCPS_Write(MCP0_GPIOB, portB_shadow);
+    portA_shadow |= LCD_E_BIT;
+    MCP0_Write(MCP0_GPIOA, portA_shadow);
+    MCPS_Write(MCPS_GPIOA, portA_shadow);
     _delay_us(1);
     
     // E Low
-    portB_shadow &= ~LCD_E_BIT;
-    MCP0_Write(MCP0_GPIOB, portB_shadow);
-    MCPS_Write(MCP0_GPIOB, portB_shadow);
+    portA_shadow &= ~LCD_E_BIT;
+    MCP0_Write(MCP0_GPIOA, portA_shadow);
+    MCPS_Write(MCPS_GPIOA, portA_shadow);
     _delay_us(50);
 }
 
 void LCD_Send8Bit(uint8_t val, uint8_t is_cmd) {
-    // 1. Ustawienie RS (Port B)
-    if (is_cmd) portB_shadow &= ~LCD_RS_BIT; // RS = 0 (Command)
-    else        portB_shadow |=  LCD_RS_BIT; // RS = 1 (Data)
+    // 1. Ustawienie RS (Port A)
+    if (is_cmd) portA_shadow &= ~LCD_RS_BIT; // RS = 0 (Command)
+    else        portA_shadow |=  LCD_RS_BIT; // RS = 1 (Data)
     
-    MCP0_Write(MCP0_GPIOB, portB_shadow); // Aktualizuj linie sterujące
-    MCPS_Write(MCP0_GPIOB, portB_shadow); // Aktualizuj linie sterujące
+    MCP0_Write(MCP0_GPIOA, portA_shadow); // Aktualizuj linie sterujące
+    MCPS_Write(MCPS_GPIOA, portA_shadow); // Aktualizuj linie sterujące
     
-    // 2. Wystawienie Danych (Port A)
-    MCP0_Write(MCP0_GPIOA, val);
-    MCPS_Write(MCP0_GPIOA, val);
+    // 2. Wystawienie Danych (Port B)
+    MCP0_Write(MCP0_GPIOB, val);
+    MCPS_Write(MCPS_GPIOB, val);
     
     // 3. Zatwierdzenie (Enable Pulse)
     LCD_ENABLE();

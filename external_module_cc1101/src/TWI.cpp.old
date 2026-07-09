@@ -1,0 +1,71 @@
+#include <avr/io.h>
+
+#include "TWI.h"
+
+#define TWI_CLK 100000  // 100 kHz
+
+void TWI_Init()
+{
+    // Przełącz TWI0 na piny alternatywne (PB1/PB0 zamiast PA1/PA2)
+    PORTMUX.CTRLB |= PORTMUX_TWI0_bm; 
+
+    // OBLICZANIE I USTAWIENIE PRĘDKOŚCI ZEGARA (Krytyczne!)
+    // Wzór z noty: MBAUD = (F_CPU / (2 * T_TWI)) - 5
+    TWI0.MBAUD = (uint8_t)((F_CPU / (2UL * TWI_CLK)) - 5); 
+
+    TWI0.MCTRLA = TWI_ENABLE_bm;         // Włącz tryb master 
+    TWI0.MSTATUS = TWI_BUSSTATE_IDLE_gc; // Wymuś stan magistrali na IDLE (0x01)
+}
+
+void TWI_Start(uint8_t addressrw)
+{
+    TWI0.MADDR = addressrw; // Wpisanie adresu automatycznie generuje START
+    
+    // Czekaj na zakończenie wysyłania adresu (WIF dla zapisu, RIF jeśli to odczyt)
+    while (!(TWI0.MSTATUS & (TWI_WIF_bm | TWI_RIF_bm))); 
+}
+
+void TWI_Stop(void)
+{
+    // Wyślij komendę STOP TYLKO jeśli magistrala jest nadal w użyciu
+    if ((TWI0.MSTATUS & TWI_BUSSTATE_gm) != TWI_BUSSTATE_IDLE_gc) {
+        TWI0.MCTRLB = TWI_MCMD_STOP_gc; 
+        while ((TWI0.MSTATUS & TWI_BUSSTATE_gm) != TWI_BUSSTATE_IDLE_gc);
+    }
+}
+
+void TWI_Write(uint8_t data)
+{
+    TWI0.MDATA = data; // Wpisanie danych czyści flagę WIF i zaczyna transfer
+    while (!(TWI0.MSTATUS & TWI_WIF_bm)); 
+}
+
+// Odczyt z potwierdzeniem (ACK) - dla wszystkich bajtów poza ostatnim
+uint8_t TWI_Read_ACK(void)
+{
+    // 1. Czekaj na flagę RIF (bajt jest gotowy do odbioru w buforze)
+    while (!(TWI0.MSTATUS & TWI_RIF_bm)); 
+    
+    // 2. KRYTYCZNE: Najpierw skopiuj bajt!
+    uint8_t data = TWI0.MDATA;
+    
+    // 3. Rozkaż sprzętowi: "Wyślij ACK i pobieraj kolejny bajt!"
+    TWI0.MCTRLB = TWI_ACKACT_ACK_gc | TWI_MCMD_RECVTRANS_gc; 
+    
+    return data;
+}
+
+// Odczyt bez potwierdzenia (NACK) - ZAWSZE tylko dla ostatniego bajtu!
+uint8_t TWI_Read_NACK(void)
+{
+    while (!(TWI0.MSTATUS & TWI_RIF_bm)); 
+    uint8_t data = TWI0.MDATA; 
+    
+    // Rozkaż sprzętowi: "Wyślij NACK i natychmiast wygeneruj sprzętowy STOP!"
+    TWI0.MCTRLB = TWI_ACKACT_NACK_gc | TWI_MCMD_STOP_gc;
+    
+    // KRYTYCZNE: Poczekaj, aż ten automatyczny STOP się wykona i szyna będzie wolna
+    while ((TWI0.MSTATUS & TWI_BUSSTATE_gm) != TWI_BUSSTATE_IDLE_gc);
+    
+    return data;
+}
