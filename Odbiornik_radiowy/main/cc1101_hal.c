@@ -14,8 +14,7 @@
 #define MOSI GPIO_NUM_23
 #define MISO GPIO_NUM_19
 #define CS_CC1101 GPIO_NUM_21
-#define GD0_1 GPIO_NUM_13
-#define GD0_2 GPIO_NUM_12
+#define GD0 GPIO_NUM_13
 
 // SPI handles for antennas
 
@@ -43,8 +42,7 @@ void spi_init(){
     
     spi_bus_add_device(SPI2_HOST, &spi_config, &antena);
     gpio_set_direction(CS_CC1101, GPIO_MODE_OUTPUT);
-    gpio_set_direction(GD0_1, GPIO_MODE_INPUT);
-    gpio_set_direction(GD0_2, GPIO_MODE_INPUT);
+    gpio_set_direction(GD0, GPIO_MODE_INPUT);
     gpio_set_level(CS_CC1101, 1); // initially set CS to 1 so it's inactive
     static const char *TAG = "SPI"; 
     ESP_LOGI(TAG, "SPI Initialization ready!");

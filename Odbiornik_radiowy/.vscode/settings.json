@@ -4,7 +4,7 @@
   "idf.openOcdConfigs": [
     "board/esp32-wrover-kit-3.3v.cfg"
   ],
-  "idf.currentSetup": "C:\\Users\\Rafal\\esp\\v5.5.1\\esp-idf",
+  "idf.currentSetup": "d:\\ESP_IDF\\v5.5.1\\esp-idf",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32"
   },

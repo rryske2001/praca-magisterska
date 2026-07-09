@@ -44,8 +44,7 @@ static const cc1101_cfg cfg_regiser[] =
 
 // Pin configuration
 
-#define GD0_1 GPIO_NUM_13
-#define GD0_2 GPIO_NUM_12
+#define GD0 GPIO_NUM_13
 #define CS_CC1101 GPIO_NUM_21
 
 void cc1101_power_on_reset(){
@@ -107,7 +106,7 @@ bool cc1101_receive_packet(uint8_t *data_buffer, uint8_t *status_buffer,
                 uint8_t *data_length, uint8_t *status_length){
     static const char *TAG = "CC1101 RECEIVE";
     gpio_num_t temp_gpio;
-    temp_gpio = GD0_1;
+    temp_gpio = GD0;
 
 
     cc1101_set_strobe(SRX); 
